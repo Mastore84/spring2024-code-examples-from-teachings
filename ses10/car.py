@@ -1,10 +1,10 @@
 class Car:
     
     def __init__(self, make, model, bhp, mph):
-        self.make = 'Hyundai'
-        self.model = 'KickAss'
-        self.bhp = 1001
-        self.mph = 200
+        self.make = make
+        self.model = model
+        self.bhp = bhp
+        self.mph = mph
     
     @property
     def bhp(self):
